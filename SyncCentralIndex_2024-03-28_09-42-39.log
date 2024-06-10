@@ -1,0 +1,240 @@
+﻿Service: SyncCentralIndex (SyncCentralIndex 5.9.1.336)
+Started: 2024-03-28T09:25:33.6263848-04:00
+HostName: secpdmam04
+
+
+[I] 2024-03-28T09:25:33.7213981-04:00 0001 Register REST controllers ...
+[S] 2024-03-28T09:25:33.9234291-04:00 0011 Start application: SyncCentralIndex (SyncCentralIndex 5.9.1.336)
+[I] 2024-03-28T09:25:33.9354321-04:00 0011 Starting SyncCentralIndex (SyncCentralIndex 5.9.1.336) ...
+[I] 2024-03-28T09:25:33.9354321-04:00 0011 Type: SyncCentralIndex 5.9.1.336
+[I] 2024-03-28T09:25:33.9354321-04:00 0011 Name: SyncCentralIndex
+[I] 2024-03-28T09:25:33.9354321-04:00 0011 Id: SyncCentralIndex
+[I] 2024-03-28T09:25:33.9364354-04:00 0011 HostName: secpdmam04
+[I] 2024-03-28T09:25:33.9364354-04:00 0011 Configuration Profile: SyncCentralIndex
+[I] 2024-03-28T09:25:33.9364354-04:00 0011 ControlCenter Url: https://secpdmam01:9911/ControlCenter
+[I] 2024-03-28T09:25:33.9364354-04:00 0011 ConfigurationService Url: https://secpdmam01:9911/ControlCenter/ConfigurationService
+[I] 2024-03-28T09:25:33.9364354-04:00 0011 Process Id: 8096
+[I] 2024-03-28T09:25:33.9364354-04:00 0011 Process CommandLine: c:\windows\system32\inetsrv\w3wp.exe -ap "MAM_2200_SyncCentralIndex" -v "v4.0" -l "webengine4.dll" -a \\.\pipe\iisipm67560c23-e66c-4c2e-a088-ab8bf23c0709 -h "C:\inetpub\temp\apppools\MAM_2200_SyncCentralIndex\MAM_2200_SyncCentralIndex.config" -w "" -m 0
+[I] 2024-03-28T09:25:33.9364354-04:00 0011 Working Directory: c:\windows\system32\inetsrv
+[I] 2024-03-28T09:25:33.9364354-04:00 0011 Application Domain: 2
+[I] 2024-03-28T09:25:33.9364354-04:00 0011 Account Name: NYDPS\SVC_MAMWS_A
+[S] 2024-03-28T09:25:33.9364354-04:00 0011 Wait for startup dependencies...
+[S] 2024-03-28T09:25:33.9374348-04:00 0011 Check dependencies ...
+[I] 2024-03-28T09:25:33.9404359-04:00 0011 Check Callback dependency [Check ControlCenter]
+[I] 2024-03-28T09:25:44.6792104-04:00 0011 Check Callback dependency [Check ControlCenter]: Succeeded
+[S] 2024-03-28T09:25:44.6802102-04:00 0011 Dependency check succeeded
+[I] 2024-03-28T09:25:44.6822110-04:00 0011 Try to connect to ControlCenter: https://secpdmam01:9911/ControlCenter
+[I] 2024-03-28T09:25:44.7092206-04:00 0011 Connected to ControlCenter 1.9.1.183: https://secpdmam01:9911/ControlCenter
+	System Id=C36F8361034241E891AD8691A8D537FE
+	System Name=Interplay | MAM
+	System Version=5.9
+[I] 2024-03-28T09:25:44.7922272-04:00 0011 Required license features:
+
+[I] 2024-03-28T09:25:44.8132404-04:00 0011 Current licenses:
+                                           	ENT_AM_DIRECTOR-1.0: NoLicense
+                                           	ENT_AM_MAM-1.0: Full
+                                           	ENT_AM_OPT_BLACKPEARL-1.0: Full
+                                           	ENT_AM_OPT_CLOSEDCAPTION-1.0: Full
+                                           	ENT_AM_OPT_CORE-1.0: Full
+                                           	ENT_AM_OPT_DESKTOP-1.0: Full
+                                           	ENT_AM_OPT_DIVA-1.0: Full
+                                           	ENT_AM_OPT_FLASHNET-1.0: Full
+                                           	ENT_AM_OPT_FOUNDATION-1.0: Full
+                                           	ENT_AM_OPT_MCUX-1.0: Full
+                                           	ENT_AM_OPT_MEDIAREWRAP-1.0: Full
+                                           	ENT_AM_OPT_ORCHESTRATION-1.0: Full
+                                           	ENT_AM_OPT_PRODUCTION-1.0: Full
+                                           	ENT_AM_OPT_STORNEXT-1.0: Full
+                                           	ENT_AM_OPT_TAPEARCHIVE-1.0: Full
+                                           	ENT_AM_OPT_VANTAGE-1.0: Full
+                                           	ENT_AM_OPT_VIDEOANALYSIS-1.0: Full
+                                           
+[I] 2024-03-28T09:25:44.8402428-04:00 0011 Configuration: 
+                                           Profile [Global]:
+                                           	/Bus/DefaultRealm=C36F8361034241E891AD8691A8D537FE
+                                           	/Bus/GatewayPort=9900
+                                           	/Bus/HostNames=secpdmammc01.inbcu.com
+                                           	/Bus/InitialConnectionAttempts=10
+                                           	/Bus/ReconnectionAttempts=-1
+                                           	/EDL/AudioFramerate=100
+                                           	/EDL/DisableMixedFramerates=false
+                                           	/Localization/Culture=en
+                                           	/MediaCentral/Password=Avid123
+                                           	/MediaCentral/UserName=Administrator
+                                           	/SystemInfo/SystemId=C36F8361034241E891AD8691A8D537FE
+                                           	/SystemInfo/SystemName=Interplay | MAM
+                                           	/SystemInfo/SystemVersion=5.9
+                                           	/DB/Jobs/ConnectString=Data Source=SECPDMAMSQL01\P0354ES01;Initial Catalog=Mam_Jobs;Integrated Security=True
+                                           	/DB/Reports/ConnectString=Data Source=SECPDMAMSQL01\P0354ES01;Initial Catalog=Mam_Reports;Integrated Security=True
+                                           	/DB/System/ConnectString=Data Source=SECPDMAMSQL01\P0354ES01;Initial Catalog=Mam_System;Integrated Security=True
+                                           	/Orchestration/Group/inews=
+                                           	/Orchestration/Group/interplay=
+                                           	/Orchestration/Group/interplay-mam=
+                                           	/Security/FileEncryption/804/Enable=true
+                                           	/Security/FileEncryption/804/EncryptionKey=C7D799CA6A9E5B2E311487A489FEA7C2
+                                           	/Security/FileEncryption/804/ExpiringTimeSpanMin=5
+                                           	/Security/FileEncryption/890/Enable=true
+                                           	/Security/FileEncryption/890/EncryptionKey=C7D799CA6A9E5B2E311487A489FEA7C2
+                                           	/Security/FileEncryption/890/ExpiringTimeSpanMin=5
+                                           
+                                           Profile [SyncCentralIndex]:
+                                           	/DB/ConnectString=Data Source=SECPDMAMSQL01\P0354ES01;Initial Catalog=Mam_System;Integrated Security=True
+                                           	/ServiceAccount/Password=756e5d47-7ec1-4896-80b2-393ff737f3f4
+                                           	/ServiceAccount/User=Service-SyncCentralIndex
+                                           	/Settings/BatchSize=500
+                                           	/Settings/BulkErrorLimit=5
+                                           	/Settings/BulkSyncTimeout=6000
+                                           	/Settings/BusCallsTimeout=300
+                                           	/Settings/BusRetryLimit=1
+                                           	/Settings/DefaultLegallistTenant=default
+                                           	/Settings/DefaultThesaurusTenant=default
+                                           	/Settings/DeleteByQueryTimeLag=-900
+                                           	/Settings/DetailsLength=2000
+                                           	/Settings/EnableCBAAssignmentsPropagationOnStart=true
+                                           	/Settings/EnableDataPropagation=true
+                                           	/Settings/EnableMessagingDiagnostics=false
+                                           	/Settings/EnableMultiTenancy=false
+                                           	/Settings/EnableServicesStatus=true
+                                           	/Settings/EntryErrorLimit=10
+                                           	/Settings/FallbackTenant=default
+                                           	/Settings/MonitorHistoryLength=300
+                                           	/Settings/PermissionServiceStatusTimeOut=120
+                                           	/Settings/SendLegalListsOnStartup=true
+                                           	/Settings/SendThesauriOnStartup=true
+                                           	/Settings/SyncBatchEntriesLimit=100
+                                           	/Settings/SyncBatchSizeLimit=10000
+                                           	/Settings/SyncInterval=1
+                                           	/Settings/SyncObjectsTimeOut=6000
+                                           	/Settings/SystemHistoryCleanupPeriodInDays=7
+                                           	/Settings/TermsLimit=3000
+                                           	/Settings/ThesaurusSyncTimeout=600
+                                           	/Settings/TimeMeasurement=false
+                                           	/Settings/TrafficHistoryCleanupPeriodInDays=7
+                                           	/Settings/TrafficHistoryLength=300
+                                           	/Settings/WatermarkLevel1=5000
+                                           	/Settings/WatermarkLevel2=50000
+                                           	/Cache/Registry/Expiration=300
+                                           	/Cache/UserSession/Expiration=30
+                                           	/Logging/File/Enabled=True
+                                           	/Logging/File/FileRotateHours=24
+                                           	/Logging/File/FileRotateSize=10485760
+                                           	/Logging/File/Level=Info
+                                           	/Logging/Performance/DefaultThreshold=00:00:10.000
+                                           	/Logging/Performance/Enabled=true
+                                           	/Logging/Requests/Enabled=false
+                                           	/Logging/Requests/LogContent=false
+                                           	/Logging/Requests/LogHeader=true
+                                           	/MACommon/Config/Cache/Enabled=true
+                                           	/MACommon/Config/Cache/Refresh=true
+                                           	/MACommon/Config/Cache/RefreshInterval=180
+                                           	/Network/Soap/ClientTimeout=00:01:40
+                                           
+                                           
+[I] 2024-03-28T09:25:44.8482366-04:00 0011 Waiting to database connection...
+[I] 2024-03-28T09:25:45.2953160-04:00 0011 Service startup...
+[I] 2024-03-28T09:25:45.2983163-04:00 0011 Waiting for objects...
+[S] 2024-03-28T09:25:45.3013154-04:00 0011 Application state changed: Running
+[I] 2024-03-28T09:25:45.3193219-04:00 0011 log4net repositories: log4net-default-repository loggers=[MAMControlCenterClient,ApiController], appenders=[MACommonAppender]
+[I] 2024-03-28T09:25:45.3343225-04:00 0022 Schema synchronization
+[I] 2024-03-28T09:25:46.8955858-04:00 0030 Instance of BusAccessManager created
+[I] 2024-03-28T09:25:46.8955858-04:00 0030 No available connection to the Bus. New connection will be created.
+[I] 2024-03-28T09:25:46.8995859-04:00 0030 Retrieving connection settings...
+[I] 2024-03-28T09:25:46.9015852-04:00 0030 Configuration setting Bus/HostNames in profile SyncCentralIndex: 
+[I] 2024-03-28T09:25:46.9015852-04:00 0030 Configuration setting Bus/HostNames in profile Global: secpdmammc01.inbcu.com
+[I] 2024-03-28T09:25:46.9015852-04:00 0030 Configured hostnames:secpdmammc01.inbcu.com
+[I] 2024-03-28T09:25:46.9035860-04:00 0030 Configuration setting Bus/GatewayPort in profile Global: 9900
+[I] 2024-03-28T09:25:46.9045866-04:00 0030 Using Configuration Setting Bus/GatewayPort with value: 9900
+[I] 2024-03-28T09:25:46.9045866-04:00 0030 Configuration setting Bus/InitialConnectionAttempts in profile Global: 10
+[I] 2024-03-28T09:25:46.9045866-04:00 0030 Using Configuration Setting Bus/InitialConnectionAttempts with value: 10
+[I] 2024-03-28T09:25:46.9045866-04:00 0030 Configuration setting Bus/ReconnectionAttempts in profile Global: -1
+[I] 2024-03-28T09:25:46.9045866-04:00 0030 Using Configuration Setting Bus/ReconnectionAttempts with value: -1
+[I] 2024-03-28T09:25:46.9045866-04:00 0030 Connection settings were retrieved.
+[I] 2024-03-28T09:25:46.9065836-04:00 0030 Initializing connection to the Bus...
+[I] 2024-03-28T09:25:46.9345954-04:00 0022 Index status checking...
+[I] 2024-03-28T09:25:46.9555935-04:00 0030 [Avid.Platform.Bus.AccessInfo] BAL build is 2.9.6-build-0011-g8b471ba 
+[I] 2024-03-28T09:25:46.9685985-04:00 0030 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Connecting to 'wss://secpdmammc01.inbcu.com:9900/ws'
+[I] 2024-03-28T09:25:46.9695957-04:00 0030 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Trust self-signed certificates.
+[I] 2024-03-28T09:25:47.1506242-04:00 0024 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Gateway property 'sgFeatureUnsubscribeFromBindings': 'true'
+[I] 2024-03-28T09:25:47.1506242-04:00 0024 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Gateway property 'connectorApiHealthCheckSupported': 'true'
+[I] 2024-03-28T09:25:47.1506242-04:00 0024 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Gateway property 'gatewayRpmVersion': '3.11.0_32_g38a18f4-1.x86_64'
+[I] 2024-03-28T09:25:47.1506242-04:00 0024 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Gateway property 'proxy.bal.version': '.net 2.9.6.0'
+[I] 2024-03-28T09:25:47.1506242-04:00 0024 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Gateway property 'service.access.object': '{  "id": "1e844884-8359-4739-8014-0e6bca894a6d",  "bal": ".net 2.9.6.0",  "host": "secpdmam04",  "pid": 8096,  "buildNumber": "unknown",  "platformId": "unknown",  "environmentId": "unknown"}'
+[I] 2024-03-28T09:25:47.1516244-04:00 0024 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Gateway property 'queryTimeoutByApi': 'true'
+[I] 2024-03-28T09:25:47.1516244-04:00 0024 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Gateway property 'gatewayJarVersion': 'java 3.11.0_32_g38a18f4-SNAPSHOT'
+[I] 2024-03-28T09:25:47.1516244-04:00 0024 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Gateway property 'websocketPingSupported': 'true'
+[I] 2024-03-28T09:25:47.1516244-04:00 0024 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Gateway property 'sgFeatureCommandPatternSupport': 'true'
+[S] 2024-03-28T09:25:47.1526352-04:00 0030 Connection to the Bus 'secpdmammc01.inbcu.com' successfully created.
+[I] 2024-03-28T09:25:47.1606237-04:00 0033 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Sent request with transaction Id [] to: com.avid.search.import:global:1:getIndexStatus
+[I] 2024-03-28T09:25:47.1756273-04:00 0035 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Sent request with transaction Id [] to: com.avid.search:global:0:getSupportedLanguages
+[I] 2024-03-28T09:25:47.2076361-04:00 0013 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Received response with transaction Id [09a9d93e-ac7e-4694-bf62-acba63da9063] to: com.avid.search:global:0:getSupportedLanguages
+[W] 2024-03-28T09:30:47.6425267-04:00 0022 Cannot obtain index status from CI due to getIndexStatus method of com.avid.search.import service fails with the timeout.
+                                           Request message:
+                                           {
+                                             "serviceType": "com.avid.search.import",
+                                             "serviceRealm": "global",
+                                             "serviceVersion": 1,
+                                             "op": "getIndexStatus",
+                                             "paramSet": {
+                                               "systemID": [
+                                                 "C36F8361034241E891AD8691A8D537FE"
+                                               ]
+                                             }
+                                           }
+                                           Retry will be performed in 20 seconds
+[I] 2024-03-28T09:31:07.6449191-04:00 0034 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Sent request with transaction Id [] to: com.avid.search.import:global:1:getIndexStatus
+[W] 2024-03-28T09:36:07.9928893-04:00 0022 Cannot obtain index status from CI due to getIndexStatus method of com.avid.search.import service fails with the timeout.
+                                           Request message:
+                                           {
+                                             "serviceType": "com.avid.search.import",
+                                             "serviceRealm": "global",
+                                             "serviceVersion": 1,
+                                             "op": "getIndexStatus",
+                                             "paramSet": {
+                                               "systemID": [
+                                                 "C36F8361034241E891AD8691A8D537FE"
+                                               ]
+                                             }
+                                           }
+                                           Retry will be performed in 20 seconds
+[I] 2024-03-28T09:36:27.9952441-04:00 0031 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Sent request with transaction Id [] to: com.avid.search.import:global:1:getIndexStatus
+[W] 2024-03-28T09:41:28.3081760-04:00 0022 Cannot obtain index status from CI due to getIndexStatus method of com.avid.search.import service fails with the timeout.
+                                           Request message:
+                                           {
+                                             "serviceType": "com.avid.search.import",
+                                             "serviceRealm": "global",
+                                             "serviceVersion": 1,
+                                             "op": "getIndexStatus",
+                                             "paramSet": {
+                                               "systemID": [
+                                                 "C36F8361034241E891AD8691A8D537FE"
+                                               ]
+                                             }
+                                           }
+                                           Retry will be performed in 20 seconds
+[I] 2024-03-28T09:41:48.3109566-04:00 0031 [Avid.Platform.Bus.Core.Gateway.Protobuf.ProtobufGateway] Sent request with transaction Id [] to: com.avid.search.import:global:1:getIndexStatus
+[S] 2024-03-28T09:42:36.1112966-04:00 0041 Stop application
+[I] 2024-03-28T09:42:36.1142893-04:00 0041 HttpRuntime Shutdown:
+                                           ShutDownReason=HostingEnvironment
+                                           
+                                           _shutDownMessage=HostingEnvironment initiated shutdown
+                                           HostingEnvironment caused shutdown
+                                           
+                                           _shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+                                              at System.Environment.get_StackTrace()
+                                              at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+                                              at System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+                                              at System.Web.Hosting.PipelineRuntime.StopProcessing()
+[E] 2024-03-28T09:42:36.1182924-04:00 0022 Cannot obtain index status from CI Cannot obtain index status from CI
+                                           A task was canceled.
+                                           Retry will be performed in 20 seconds
+[E] 2024-03-28T09:42:36.1242895-04:00 0022 Failed to sync schema. Exception: System.OperationCanceledException: The operation was canceled.
+                                              at System.Threading.CancellationToken.ThrowOperationCanceledException()
+                                              at com.avid.SyncCentralIndex.ModelManager.DataModelManager.CheckIndexStatus() in D:\jenkins\workspace\MAMCore5.9\interplay_mam\Core\Source\SyncCentralIndex\SyncCentralIndex\ModelManager\DataModelManager.cs:line 630
+                                              at com.avid.SyncCentralIndex.ModelManager.DataModelManager.SafeMapCustomAttributes(Boolean reindexRequired) in D:\jenkins\workspace\MAMCore5.9\interplay_mam\Core\Source\SyncCentralIndex\SyncCentralIndex\ModelManager\DataModelManager.cs:line 185
+                                              at com.avid.SyncCentralIndex.ModelManager.DataModelManager.MapSchemaAndCbaRules(Boolean reindex) in D:\jenkins\workspace\MAMCore5.9\interplay_mam\Core\Source\SyncCentralIndex\SyncCentralIndex\ModelManager\DataModelManager.cs:line 119
+                                              at com.avid.SyncCentralIndex.ModelManager.DataModelManager.SyncDataSchema(Boolean reindex) in D:\jenkins\workspace\MAMCore5.9\interplay_mam\Core\Source\SyncCentralIndex\SyncCentralIndex\ModelManager\DataModelManager.cs:line 112
+                                              at com.avid.SyncCentralIndex.SyncController.SyncDataSchema() in D:\jenkins\workspace\MAMCore5.9\interplay_mam\Core\Source\SyncCentralIndex\SyncCentralIndex\SyncController.cs:line 241
+[I] 2024-03-28T09:42:36.1252875-04:00 0022 Sync data schema canceled
+[I] 2024-03-28T09:42:36.1262873-04:00 0041 Shutting down Bus Access...
+[S] 2024-03-28T09:42:36.1342902-04:00 0041 Connection to Bus successfully closed.
+[S] 2024-03-28T09:42:36.1352893-04:00 0041 Application state changed: Stopped
